@@ -135,10 +135,10 @@ public class Student_Test {
 	public void Student_Grades() throws PersonException {
 		
 		ArrayList<Enrollment> enroll = new ArrayList<Enrollment>();
-		for (Student i : student) {
-			for (Section j : section) {
-				Enrollment ijenroll = new Enrollment(i.getStudentID(), j.getSectionID());
-				enroll.add(ijenroll);
+		for (Student f : student) {
+			for (Section g : section) {
+				Enrollment fgenroll = new Enrollment(f.getStudentID(), g.getSectionID());
+				enroll.add(fgenroll);
 			}
 		}
 		
